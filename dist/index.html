@@ -96,11 +96,13 @@
             <div class="categories__cont">
               <div class="categories__item">
                 <div class="categories__overlay">
-                  <h4 class="categories__title">Бензин</h4>
-                  <ul class="categories__list">
-                    <li>Топливо печное</li>
-                    <li>Растворитель углеводородный</li>
-                  </ul>
+                  <div class="categories__overlay--wrap wow fadeInUp">
+                    <h4 class="categories__title">Бензин</h4>
+                    <ul class="categories__list">
+                      <li>Топливо печное</li>
+                      <li>Растворитель углеводородный</li>
+                    </ul>
+                  </div>
                 </div>
                 <div class="categories__main">
                   <div class="img categories__img categories__img-1"><img src="img/categories/cat-1.jpg" alt="Бензин"></div>
@@ -109,11 +111,13 @@
               </div>
               <div class="categories__item">
                 <div class="categories__overlay">
-                  <h4 class="categories__title">Дизельное топливо</h4>
-                  <ul class="categories__list">
-                    <li>Топливо печное</li>
-                    <li>Растворитель углеводородный</li>
-                  </ul>
+                  <div class="categories__overlay--wrap wow fadeInUp">
+                    <h4 class="categories__title">Дизельное топливо</h4>
+                    <ul class="categories__list">
+                      <li>Топливо печное</li>
+                      <li>Растворитель углеводородный</li>
+                    </ul>
+                  </div>
                 </div>
                 <div class="categories__main">
                   <div class="img categories__img categories__img-2"><img src="img/categories/cat-2.jpg" alt="Бензин"></div>
@@ -122,11 +126,13 @@
               </div>
               <div class="categories__item">
                 <div class="categories__overlay">
-                  <h4 class="categories__title">Сырьё и тёмные нефтепродукты</h4>
-                  <ul class="categories__list">
-                    <li>Топливо печное</li>
-                    <li>Растворитель углеводородный</li>
-                  </ul>
+                  <div class="categories__overlay--wrap wow fadeInUp">
+                    <h4 class="categories__title">Сырьё и тёмные нефтепродукты</h4>
+                    <ul class="categories__list">
+                      <li>Топливо печное</li>
+                      <li>Растворитель углеводородный</li>
+                    </ul>
+                  </div>
                 </div>
                 <div class="categories__main">
                   <div class="img categories__img categories__img-3"><img src="img/categories/cat-3.jpg" alt="Бензин"></div>
@@ -440,30 +446,7 @@
             <div class="about--left">
               <div class="global-button"><a href="#" class="global-form">Оставить заявку<span class="arrow">→</span></a></div>
             </div>
-            <div class="pie-wrap"><svg
-  version="1.1"
-  xmlns="http://www.w3.org/2000/svg"
-  class="flavour-graph"
-  id="flavour-graph"
-  viewBox="0 0 550 550"
-  width="650"
-  height="610"
->
-  <polyline points="190,85 210,120" stroke="#ebebeb" stroke-width="1" fill="none"/>
-  <polyline points="85,175 135,155" stroke="#ebebeb" stroke-width="1" fill="none"/>
-  <polyline points="-10,280 90,260" stroke="#ebebeb" stroke-width="1" fill="none"/>
-  <polyline points="100,410 135,390" stroke="#ebebeb" stroke-width="1" fill="none"/>
-  <polyline points="350,490 290,445" stroke="#ebebeb" stroke-width="1" fill="none"/>
-  <polyline points="445,82 430,120" stroke="#ebebeb" stroke-width="1" fill="none"/>
-<filter id="dropshadow" height="120%">
-  <feGaussianBlur in="SourceAlpha" stdDeviation="4"/> <!-- stdDeviation is how much to blur -->
-  <feOffset dx="0" dy="0" result="offsetblur"/> <!-- how much to offset -->
-  <feMerge> 
-    <feMergeNode/> <!-- this contains the offset blurred image -->
-    <feMergeNode in="SourceGraphic"/> <!-- this contains the element that the filter is applied to -->
-  </feMerge>
-</filter>
-</svg>
+            <div class="pie-wrap">
               <div class="segment__text-name segment-0__text-name"> <span class="text-name">Поставки на АЗС</span></div>
               <div class="segment__text-name segment-1__text-name"> <span class="text-name">Промышленность</span></div>
               <div class="segment__text-name segment-2__text-name">Предприятия<br>
@@ -516,7 +499,7 @@
               <div class="counter__item">
                 <h4 class="counter__title">ДТ</h4><svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
   <circle class="circle-chart__background" stroke="#fff9e6" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
-  <circle class="circle-chart__circle circle-chart__circle--negative" stroke="#ffc000" stroke-width="2" stroke-dasharray="65" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
+  <circle class="circle-chart__circle circle-chart__circle--negative" stroke="#ffc000" stroke-width="2" stroke-dasharray="60" stroke-linecap="round" fill="none" cx="16.91549431" cy="16.91549431" r="15.91549431" />
   <g class="circle-chart__info">
     <text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="6">38 147</text>
     <text class="circle-chart__subline" x="16.91549431" y="20.5" alignment-baseline="central" text-anchor="middle" font-size="4">тонн</text>
@@ -524,7 +507,7 @@
 </svg>
               </div>
             </div>
-            <div class="global-button"><a href="#" class="global-form">Оставить заявку →</a></div>
+            <div class="global-button"><a href="#" class="global-form">Заказать топливо <span class="arrow">→</span></a></div>
           </div>
         </div>
       </section>
@@ -541,21 +524,31 @@
         </div>
       </section>
       <section data-anchor="#map" class="map">
-        <div data-block="map1" data-longitude="55.033490" data-latitude="82.930705" data-markerlng="55.033485" data-markerlat="82.933137" class="g_map map1 active"></div>
+        <div data-block="map1" data-longitude="55.033607" data-latitude="82.931080" data-markerlng="55.033485" data-markerlat="82.933137" class="g_map map1 active"></div>
         <div class="wrap">
           <div class="map__cont">
             <aside class="wow fadeInUp">
               <h2>Контакты</h2>
               <div data-block="map1" class="map__block active">
                 <address> 
-                  <p>г. Новосибирск, </p>
-                  <p>ул.Ядринцевская 68/1, оф 608</p>
+                  <div class="icon icon__adress">
+                  </div>
+                  <div class="wrap__adress">
+                    <p>г. Новосибирск, </p>
+                    <p>ул.Ядринцевская 68/1, оф 608</p>
+                  </div>
                 </address>
                 <ul>
-                  <li> <a href="tel: +73832121263">+7 (383) 212-12-63 </a></li>
-                  <li><a href="mailto: vimpioil@yandex.ru">vimpioil@yandex.ru</a></li>
+                  <li>
+                    <div class="icon icon__phone">
+                    </div><a href="tel: +73832121263">+7 (383) 212-12-63 </a>
+                  </li>
+                  <li>
+                    <div class="icon icon__mail">
+                    </div><a href="mailto: vimpioil@yandex.ru">vimpioil@yandex.ru</a>
+                  </li>
                 </ul>
-                <div class="global-button"><a href="#" class="global-form">Написать нам →</a></div>
+                <div class="global-button"><a href="#" class="global-form">Написать нам<span class="arrow">→</span></a></div>
               </div>
             </aside>
             <div class="map__label">Ядринцевая <br>улица, 68/1</div>
@@ -565,9 +558,9 @@
       <nav class="fixed-nav">
         <ul>
           <li data-menuAnchor="#categories" class="active">Продукция</li>
-          <li data-menuAnchor="#about">Объем поставок</li>
           <li data-menuAnchor="#advantages">Преимущества</li>
           <li data-menuAnchor="#regions">География</li>
+          <li data-menuAnchor="#about">Объем поставок</li>
           <li data-menuAnchor="#map">Контакты</li>
         </ul>
       </nav>
